@@ -1,0 +1,65 @@
+/*
+ Steven Roseman
+ Visual Frameworks
+ Term 1302
+ Project 2
+ */
+
+body{
+    background: silver;
+}
+
+ul{
+    visibility: none;
+}
+
+
+h1 {
+    border-radius: 20px / 20px;
+    margin: 1px;
+    border: 1px solid black;
+    padding: 1px;
+    background: #aa7f7f;
+    font: 28px Arial;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: ;
+    
+    
+    
+}
+
+h2{
+   
+   border: 1px solid black;
+   background: #aa7f7f;
+   padding: 1px;
+   text-align: center;
+   width:300px;
+   font: 14px Arial;
+}
+
+h3{
+    
+}
+
+
+
+
+p {
+    color: white;
+    /*font-family: Futura, Arial, Calibri;*/
+    font: 12px Futura;
+    text-align: right;
+    text-indent: -9000;
+    text-decoration: ;
+    line-height: 1.2em;
+    
+}
+
+legend{
+    font-weight: bold;
+}
+
+a{text-decoration: underline;}
+a:hover{color:gray;outline:none;}
