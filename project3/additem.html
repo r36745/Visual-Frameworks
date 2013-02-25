@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Steven Roseman -->
+<!-- Visual Frame works -->
+<!-- Term 1302 -->
+<!-- Project 2 -->
+
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="My toy wish list." />
+        <meta name="keywords" content="vibe, sex, Sextyles" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        
+        <title>Cheshire wish list</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="titlePage">Toy Wish List</h1>
+        </header>
+        <form action= "#" method="post" id="wishListForm">
+            
+            <fieldset id="wishListFieldset">
+                <legend>Your Wish</legend>
+                <ul id="errors"></ul>
+                <ul>
+                    <li><label for="fname">First name: </label><input type="text" id="fname" /></li>
+                    <li><label for="lname">Last name: </label><input type="test" id="lname"  /></li>
+                    <li><label for="email">Email:</label><input type="email" id="email" placeholder="info@cheshire.com" /></li>
+                    <li id="select"><label for="product">Product Group</label></li>
+                   <!-- <li>
+                         <label for="product">Product Group</label>
+                        <select id="product">
+                            <optgroup label="Chesh Kitty">
+                                <option value="--Choose A Product--">--Choose A Product--</option>
+                                <option value="OhmiBod">posh</option>
+                                <option value="kitten">kitten</option>
+                                <option value="Jane">zany</option>
+                             </optgroup>
+                            <optgroup label="Chesh Cat">
+                                <option value="za">Za</option>
+                                <option value="dee">Dee</option>
+                                <option value="ree">Ree</option>
+                            </optgroup>
+                        </select>
+                    </li> -->
+                    <li>Interest in Toys <input id="slider" type="range" min="1" max="10" /> </li>
+                    <li>Choose Cheshire Color:
+                        <ul>
+                          <li><input type="radio" value="Passion Pink" id="passion pink" name="color" /><label for="passion pink">Passion Pink</label></li>
+                          <li><input type="radio" value="Refreshing Rasberry" id="refreshing rasberry" name="color" /><label for="refreshing rasberry">Refresh Rasberry</label></li>
+                          <li><input type="radio" value="Blueberry blue" id="blueberry blue" name="color" /><label for="blueberry blue">Blueberry Blue</label></li>
+                        </ul>
+                    <li><input type="checkbox"  value="fav" id="fav" /><label for="fav">Is this your favorite</label></li>
+                    <li>Date added <input type="date" id="date" /> </li>
+                    <li><label for="comments">Comments:</label><textarea id="comments"></textarea></li>
+                </ul>
+            </fieldset>
+                <input type="button" value="Save Wish" id="submit" /><br />
+            <footer>
+                <nav>
+                    <ul>
+                        <li><a href="#" id="clearData">Clear Stored Data</a></li>
+                        <li><a href="#" id="displayData">Display Data</a></li>
+                        <li><a href="additem.html" id="newItem" style="display:none;">New Item</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </form>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
